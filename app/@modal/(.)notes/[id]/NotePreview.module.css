@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+}
+.close {
+  position: absolute;
+  top: -14px;
+  right: -10px;
+  border: 0;
+  background: transparent;
+  color: #4b5563;
+  font-size: 30px;
+  cursor: pointer;
+}
+.title {
+  margin: 0 36px 16px 0;
+  font-size: 26px;
+  overflow-wrap: anywhere;
+}
+.tag {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: #eef0ff;
+  color: #303f9f;
+  font-size: 14px;
+}
+.content {
+  margin: 24px 0;
+  line-height: 1.7;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.date {
+  color: #707887;
+  font-size: 14px;
+}

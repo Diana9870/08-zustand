@@ -1,0 +1,16 @@
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 48px 24px 72px;
+}
+
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0 0 24px;
+  color: #303f9f;
+  font-size: clamp(28px, 4vw, 40px);
+}

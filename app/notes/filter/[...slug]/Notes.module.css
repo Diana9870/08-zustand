@@ -1,0 +1,26 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.button {
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 6px;
+  background: #4263eb;
+  color: #fff;
+}
+
+.button:hover {
+  background: #364fc7;
+}

@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 18px max(24px, calc((100% - 1100px) / 2));
+  background: #fff;
+  border-bottom: 1px solid #e7e9ee;
+}
+.brand {
+  font-size: 24px;
+  font-weight: 700;
+  color: #303f9f;
+  text-decoration: none;
+}
+.navigation {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navigation a {
+  color: #303846;
+  text-decoration: none;
+  font-weight: 600;
+}
+.navigation a:hover {
+  color: #3949ab;
+}
